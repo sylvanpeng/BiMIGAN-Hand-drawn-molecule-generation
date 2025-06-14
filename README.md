@@ -45,7 +45,7 @@ export UVCGAN_OUTDIR="/path/to/your/output"
 `BiMIGAN` will look for datasets in the`"${BiMIGAN_DATA}"` directory and will save results under the `"${BiMIGAN_OUTDIR}"`directory. 
 
 
-# UVCGAN Reproduction
+# BiMIGAN Reproduction
 
 To reproduce tour experiments, follow these steps:
 
@@ -64,7 +64,7 @@ download command:
 ```bash
 ./scripts/download_dataset.sh
 ```
-The dataset for cyclegan training should be organized in the following structure:
+The dataset for cycleGAN training should be organized in the following structure:
 ```
 data/
 └── bimigan_dataset/
